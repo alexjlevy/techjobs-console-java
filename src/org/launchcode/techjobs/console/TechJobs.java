@@ -111,7 +111,7 @@ public class TechJobs {
 
         ArrayList<HashMap<String, String>> jobsList = someJobs;
         if (jobsList.isEmpty()){
-            System.out.println("No jobs found given the search criteria");
+            System.out.println("\nNo jobs found given the search criteria");
         } else {
             for (HashMap<String, String> job : jobsList) {
                 System.out.println("*****");
